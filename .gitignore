@@ -1,0 +1,30 @@
+# Credentials and local configuration: never commit API keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
